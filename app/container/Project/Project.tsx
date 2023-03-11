@@ -1,39 +1,31 @@
-import Image from "next/image"
-
+import Image from "next/image";
 
 export default function Project() {
-    return (
-        <main className="">
-        <h1>Prjects</h1>
-        <p>Some of the side projects. I am currently working on</p>
-        <div className="flex">
-  <div
-    className="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-    <a href="#!">
-      <img
-        className="rounded-t-lg"
-        src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
-        alt="" />
-    </a>
-    <div className="p-6">
-      <h5
-        className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-        Card title
-      </h5>
-      <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-        Some quick example text to build on the card title and make up the
-        bulk of the card content.
-      </p>
-      {/* <button
-        type="button"
-        className="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-        data-te-ripple-init
-        data-te-ripple-color="light">
-        Button
-      </button> */}
-    </div>
-  </div>
-</div>    
-        </main>
-    );
-  }
+  return (
+    <main className="mt-10 leading-6">
+      <p className="text-3xl tracking-wide font-semibold">Projects</p>
+      <p className="leading-relaxed mt-1">Some of the side projects. I am currently working on</p>
+      <div className="flex mt-6">
+        <div className="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <Image
+              className="rounded-t-lg"
+              src="/cvvlogs.png"
+              alt=""
+              width={400}
+              height={300}
+            />
+          </a>
+          <div className="p-6">
+            <h1>CVV Logs video Resume Website</h1>
+            <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              A website where you can upload your video resume and share it with
+              the world.
+            </p>
+           <p>View Project</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}

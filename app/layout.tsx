@@ -2,17 +2,17 @@ import './globals.css'
 
 import localFont from '@next/font/local'
 
-const helvetica = localFont({ src: [
+const fonts = localFont({ src: [
   {
-    path: "../public/fonts/TTF/Hubot-Sans-Black.ttf",
+    path: "../public/fonts/Roboto-Medium.ttf",
     // weight: "100"
   },
-  {
-    path: "../public/fonts/TTF/Hubot-Sans-Black.ttf",
+  // {
+    // path: "../public/fonts/Mona-Sans.woff2",
     // weight: "400"
-  },
+  // },
 ],
-variable: '--font-helvetica',
+variable: '--font-roboto',
 })
 
 export const metadata = {
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={`${helvetica.variable} font-sans`} lang="en">
+    <html className={`${fonts.variable} font-sans`} lang="en">
       <body>{children}</body>
     </html>
   )
