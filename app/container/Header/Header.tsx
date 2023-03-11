@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Header() {
     return (
         <main className="flex justify-between">
-         <div className="flex flex-col object-cover" style={{width: "45rem"}} >
+         <div className="flex flex-col object-cover" style={{width: "40rem"}} >
            <p className="text-3xl tracking-wider font-semibold">{`Hello! I'Hamza, a developer based in Pakistan`}</p>
            <p className="tracking-wider">I love building tools that are user-friendly, simple and delightful.
               I was a student at Sylani Mass IT Training where I spent 8 months learning 
@@ -25,7 +25,7 @@ export default function Header() {
               <Image
               src={'/hamza.jpg'}
               alt="Picture of the author"
-              width={290}
+              width={400}
               height={800}
               
               className="rounded-md shadow-2xl object-fit"
