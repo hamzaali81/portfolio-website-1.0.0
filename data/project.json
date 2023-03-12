@@ -1,12 +1,9 @@
-[
+ [
     {
         "id": 1,
         "title": "CVV Logs",
         "short_description": "CVV Logs is a tool that allows you to view the logs of your CVV.",
         "image": "/cvvlogs.png",
         "link": "/cvv-logs"
-    },
-    {
-        
     }
 ]
