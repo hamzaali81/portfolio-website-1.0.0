@@ -19,9 +19,9 @@ async function fetchBlogs() {
 
 // 218fc4158259c72e947f08897c949d287b91f24b66a41daba7f4de2a15bb81495
 // https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@hamzaahmed_46108/
-export default async function Blog() {
-  const blogs = await fetchBlogs();
-  console.log(blogs.items.map((blog: any) => blog.title));
+export default function Blog() {
+  // const blogs = await fetchBlogs();
+  // console.log(blogs.items.map((blog: any) => blog.title));
 
 //   const Blogs = blogs?.map((blog: any, index: any) =>
 //    {
