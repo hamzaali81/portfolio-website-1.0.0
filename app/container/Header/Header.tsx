@@ -1,26 +1,18 @@
 'use client';
 import Image from "next/image"
 import Highlighter from "react-highlight-words";
-import Typewriter from 'typewriter-effect';
 
 
 export default function Header() {
     return (
-        <main className="flex lg:justify-between lg:flex  lg:items-start sm:flex-col sm:items-center justify-between md:width-50 sm:width-50">
-         <div className="flex flex-col object-cover md:max-xl:flex " style={{width: "44rem"}}>
+        <main className="flex md:justify-between lg:justify-between md:w-70">
+         <div className="flex lg:flex-col md:flex-col object-cover md:max-xl:flex " style={{width: "44rem"}}>
            <p className="text-3xl tracking-wider font-bold text-gray-900 sm:text-lg lg:text-3xl">
             
-<Typewriter
-  options={{
-    strings: [`Hello! I'm Hamza, a fullstack Javascript developer based in Pakistan!`, `Hello! I'm Hamza, a fullstack Javascript developer based in Pakistan!`],
-    autoStart: true,
-    loop: true,
-  }}
-/>
-            {/* {`Hello! I'm Hamza, a fullstack Javascript developer based in Pakistan!`} */}
+            {`Hello! I'm Hamza, a fullstack Javascript developer based in Pakistan!`}
             </p>
            <br />
-           <p className="tracking-wider  leading-loose text-gray-800 sm:text-sm md:text-sm">
+           <p className="tracking-wider md:justify-center md:items-center leading-loose text-gray-800 sm:text-sm md:text-sm">
            <Highlighter
           highlightClassName="YourHighlightClass"
          searchWords={["fullstack", "Javascript", "React", "Node", "Express", "MongoDB","8 months", "Mongoose", "Nextjs", "Tailwindcss", "Git", "Github", "Vercel" ,"Sylnai", "Fiverr", "level 1 seller on", "user-friendly", "simple", "delightful", "communication", "teamwork", "problem solving", "interpersonal", "googling", "documentation reading", "debugging", "researching", "documentation writing"]}
@@ -71,7 +63,7 @@ export default function Header() {
               width={400}
               height={400}
               
-              className="rounded-md shadow-2xl object-fit lg:visible md:hidden sm:visible"
+              className="rounded-md shadow-2xl object-fit lg:visible md:visible sm:visible"
               />
          </div>
         </main>

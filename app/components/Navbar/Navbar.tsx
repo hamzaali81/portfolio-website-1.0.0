@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-      <nav className="flex sm:justify-between mt-2 sm:text-sm">
+      <nav className="flex lg:text-base	 sm:justify-between mt-2 sm:text-sm">
         {/* <Header/> */}
           <div className="font-bold max-xl:first-letter:first-line:"> {`<Hamza Ali />`} </div>
                 <div className="flex gap-8">
