@@ -19,7 +19,7 @@ async function fetchBlogs() {
 
 // 218fc4158259c72e947f08897c949d287b91f24b66a41daba7f4de2a15bb81495
 // https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@hamzaahmed_46108/
-export default function Blog() {
+export default function Certification() {
   // const blogs = await fetchBlogs();
   // console.log(blogs.items.map((blog: any) => blog.title));
 
@@ -45,35 +45,35 @@ export default function Blog() {
  
     return (
         <main className="w-100 h-100 mt-10">
-        <h1 className="text-2xl tracking-wide font-semibold">Blogs</h1>
+        <h1 className="xl:2xl md:text-xl xl:text-left md:text-left min-[320px]:text-sm tracking-wide font-semibold min-[320px]:text-center">Certifications</h1>
       <div className="mt-5"></div>
-      <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 lg:grid-cols-3 min-[320px]:grid-cols-1">
         {/* {Blogs} */}
         {/* 1 */}
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <a href="https://digiskills.pk/verify/" target="_blank">
              <Image
-              src={'/web.gif'}
+              src={'/digiskills.png'}
               alt="Picture of the author"
               width={400}
-              height={800}
+              height={300}
               
               className="rounded-md shadow-2xl object-fit"
               />
     </a>
     <div className="p-5">
         <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mobile Application & Web Development Impact in World Revolution</h5>
+            <h5 className="mb-2 text-2xl min-[320px]:text-sm font-bold tracking-tight text-gray-900 dark:text-white">COMMUNICATION AND SOFT SKILLS</h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Web Development & Design in today era is an essential & hot skills for many programmers to startup new journey.....</p>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 md:text-sm xl:text-sm 2xl:text-xl  min-[320px]:text-xs">Credential ID: 4TYWH5BMK</p>
         
     </div>
     </div>
     {/* 2 */}
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <a href="https://digiskills.pk/verify/">
              <Image
-              src={'/clean code.png'}
+              src={'/digiskills.png'}
               alt="Picture of the author"
               width={400}
               height={800}
@@ -83,9 +83,31 @@ export default function Blog() {
     </a>
     <div className="p-5">
         <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">How To Write clean Code</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white min-[320px]:text-sm">Creative Writting</h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Loading......</p>
+        <p className="mb-3 font-normal text-gray-700 min-[320px]:text-xs dark:text-gray-400">Credential ID: 3YUT3P6MK</p>
+        
+    </div>
+    </div>
+
+    {/* 03 */}
+
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="https://www.hackerrank.com/hamza54834">
+             <Image
+              src={'/hackerrank.png'}
+              alt="Picture of the author"
+              width={400}
+              height={800}
+              
+              className="rounded-md shadow-2xl object-fit"
+              />
+    </a>
+    <div className="p-5">
+        <a href="#">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white min-[320px]:text-sm">Problem Solution Badge</h5>
+        </a>
+        <p className="mb-3 font-normal text-gray-700 min-[320px]:text-xs dark:text-gray-400">Hacker Rank Problem Solving Badge</p>
         
     </div>
     </div>
