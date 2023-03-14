@@ -8,7 +8,7 @@ import Testimonial from './container/Testimonial/Testimonial'
 import Contact from './container/Contact/Contact'
 export default function Home() {
   return (
-    <main className='flex lg:m-10 flex-col  sm:w-70 sm:m-4 w-90 mr-20 ml-20'>
+    <main className='xl:flex min-[320px]:text-center min-[320px]:flex-col xl:justify-between lg:m-10 flex-col min-[320px]:w-100 xl:w-90 sm:m-2 2xl:w-90 mr-20 ml-20'>
         <Navbar />
       <div className='flex  flex-col justify-between mt-20 h-100'>
         <Header />

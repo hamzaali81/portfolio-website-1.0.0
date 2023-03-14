@@ -4,9 +4,9 @@ import Image from "next/image"
 export default function Contact() {
    
     return (
-        <main className="mt-20">
-         <h1 className="text-2xl tracking-wider font-bold min-[320px]:text-center">Get in touch</h1>
-         <p className="mt-4 min-[320px]:text-center">Do you have any job oppourtunity or idea {`you'd`} like to discuss? Feel Free to reach me at 
+        <main className="mt-20 xl:w-90">
+         <h1 className=" xl:text-2xl xl:text-left tracking-wider font-bold min-[320px]:text-center">Get in touch</h1>
+         <p className="mt-4 xl:text-left min-[320px]:text-center">Do you have any job oppourtunity or idea {`you'd`} like to discuss? Feel Free to reach me at 
          
          <span>
             <a href="mailto:hamzaali81811@gmail.com" 
@@ -38,7 +38,7 @@ export default function Contact() {
 
          <div className="mt-20"></div>
          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-        <footer className="flex justify-between">
+        {/* <footer className="flex justify-between">
             <p className="text-sm font-normal tracking-wider min-[320px]:text-xs">Build With Typescript, Tailwind and Next.js 13 🖤</p>
             
             <p className="flex">
@@ -58,7 +58,7 @@ export default function Contact() {
                     </span>
              </a>
             </p>
-        </footer>
+        </footer> */}
         <div className="mt-10"></div>
             <div className="flex justify-center items-center min-[320px]:text-center">
             <p className="min-[320px]:text-xs">© 2023 Hamza Ali. All rights reserved.</p>
